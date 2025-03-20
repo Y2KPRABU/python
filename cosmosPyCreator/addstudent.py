@@ -7,8 +7,6 @@ from azure.cosmos import PartitionKey
 from cosmosutil import *
 
 # Initialize the Cosmos client
-HOST = "https://suncosmos.documents.azure.com:443/"#"YOUR_COSMOS_DB_ENDPOINT"
-MASTER_KEY = "M41n2B0GjPeJ0DSBQEo38yWDosdipvDQz1pdifUpArcdw9m8SpJwwa51SsHkIXGnOGg1FCRQ1JzlACDbA2ZGWA=="#"YOUR_COSMOS_DB_KEY"
 
 # Create a database
 DATABASE_ID = 'SchoolDatabase'

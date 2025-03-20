@@ -4,6 +4,7 @@ csx
 .vs
 edge
 Publish
+.ini
 
 *.user
 *.suo

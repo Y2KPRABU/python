@@ -45,4 +45,8 @@ def add_student(student_id, student_name, student_age):
 # Example usage
 #add_student('1', 'John Doe', 20)
 #add_student('2', 'John Mason', 19)
-add_student('3', 'Sun Mason', 19)
+#add_student('3', 'Sun Mason', 19)
+#add_student('4', 'Sun pra', 29)
+#add_student('5', 'Sun pra', 29)
+add_student('6', 'Sun 6', 29)
+

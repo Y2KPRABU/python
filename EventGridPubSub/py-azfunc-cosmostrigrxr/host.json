@@ -1,16 +1,49 @@
 {
   "version": "2.0",
-  "logging": {
-    "applicationInsights": {
-      "samplingSettings": {
-        "isEnabled": true,
-        "excludedTypes": "Request"
-      }
-    }
-  },
+  "isDefaultHostConfig": true,
   "extensionBundle": {
     "id": "Microsoft.Azure.Functions.ExtensionBundle",
     "version": "[4.*, 5.0.0)"
+  },
+
+  "logging": {
+    "fileLoggingMode": "debugOnly",
+    "logLevel": {
+      "Function.cosmosdb_trigger": "Information",
+      "Function": "Warning",
+      "default": "Information",
+      "Host.Results": "Information",
+      "Host.Aggregator": "Information",
+      "Host.Triggers": "Information",
+      "Host.General": "Information",
+      "Host.Executor": "Information",
+      "Host.Startup": "Information",
+      "Host.Function": "Information",
+      "Host.Scaling": "Information"
+    },
+    "console": {
+      "Function": "Warning",
+      "Function.cosmosdb_trigger": "Information",
+      "default": "Information",
+      "Host.Results": "Information",
+      "Host.Aggregator": "Information",
+      "Host.Triggers": "Information",
+      "Host.General": "Information",
+      "Host.Executor": "Information",
+      "Host.Startup": "Information",
+      "Host.Function": "Information",
+      "Host.Scaling": "Information"
+    },
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "maxTelemetryItemsPerSecond": 1,
+        "excludedTypes": "Exception"
+      }
+    }
+  },
+  "aggregator": {
+    "batchSize": 1000,
+    "flushTimeout": "00:04:50"
   }
- 
 }

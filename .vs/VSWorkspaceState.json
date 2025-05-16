@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\EventGridPubSub",
     "\\EventGridPubSub\\py-azfunc-studentwebhook",
     "\\sbuspublishpy"
   ],
-  "SelectedNode": "\\sbuspublishpy\\sbuspub.py",
+  "SelectedNode": "\\sbuspublishpy",
   "PreviewInSolutionExplorer": false
 }

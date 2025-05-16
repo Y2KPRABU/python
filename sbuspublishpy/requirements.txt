@@ -2,3 +2,6 @@ azure-servicebus
 azure-identity
 aiohttp
 azure-appconfiguration-provider
+websocket-client # for AMQP websocket support , if not needed comment this
+
+azure-eventhub # for eventhub support, if not needed comment this
